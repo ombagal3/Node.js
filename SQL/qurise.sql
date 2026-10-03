@@ -1,0 +1,1 @@
+create a table to store student's information like a id, name, age, course, city.
