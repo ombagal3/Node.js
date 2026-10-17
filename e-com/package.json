@@ -1,0 +1,31 @@
+{
+  "name": "fullstack-ecommerce-platform",
+  "version": "1.0.0",
+  "description": "Production-style Full-Stack E-commerce Platform with React.js, Node.js, Express.js, and MongoDB",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server:install": "cd server && npm install",
+    "client:install": "cd client && npm install",
+    "install:all": "npm run server:install && npm run client:install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "test": "cd server && npm run test",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "ecommerce",
+    "jwt",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
