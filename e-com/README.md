@@ -1,5 +1,5 @@
 
-Live :   https://e-com-store-v3du.vercel.app/products?search=hjfk&category=furniture-living
+Live :   https://e-com-store-v3du.vercel.app/
 
 # VERVE ATELIER — Full-Stack E-Commerce Platform
 > A production-style e-commerce product management application featuring an editorial customer-facing storefront and a secure administrative dashboard. Built with React.js, Vite, Node.js, Express.js, and MongoDB (Mongoose).
